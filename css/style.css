@@ -1,0 +1,164 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	box-sizing: border-box;
+  }
+  ol,
+  ul {
+	list-style: none;
+  }
+  del {
+	text-decoration: line-through;
+  }
+  body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: rgb(28, 44, 64);
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+	background-color: rgb(61, 165, 228);
+  }
+  input,
+  textarea,
+  select {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 400;
+  }
+  a {
+	color: rgb(28, 44, 64);
+  }
+  a:hover,
+  .submit:hover {
+	opacity: 0.85;
+  }
+  .thumb {
+	display: block;
+  }
+  .thumb img {
+	display: block;
+	width: 100%;
+  }
+  p {
+	line-height: 1.6em;
+	font-size: 16px;
+	font-family: Arial;
+	font-weight: 400;
+  }
+  .hidden {
+	display: none;
+  }
+  .wrapper {
+	width: 90%;
+	margin: 0px auto;
+	max-width: 980px;
+  }
+  @font-face {
+	font-family: product_sansbold;
+	src: url("../fonts/product_sans_bold-webfont.woff2") format("woff2"),
+	  url("../fonts/product_sans_bold-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+  }
+  @font-face {
+	font-family: product_sansregular;
+	src: url("../fonts/product_sans_regular-webfont.woff2") format("woff2"),
+	  url("../fonts/product_sans_regular-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+  }
+  section#imageslider {
+  }
+  section#imageslider section.wrapper {
+  }
+  section#imageslider section.wrapper div.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  }
+  section#imageslider section.wrapper div.container div.slideleft {
+	width: 3%;
+	margin-right: 18px;
+	}
+  section#imageslider section.wrapper div.container div.slideleft img {
+	display: block;
+	width: 100%;
+  }
+  section#imageslider section.wrapper div.container div.item {
+	background-color: rgb(255, 255, 255);
+	padding: 30px 20px;
+	margin-right: 10px;
+	border-radius: 8px;
+	width: 27%;
+	}
+ 
+  section#imageslider section.wrapper div.container div.item div.logo {
+	width: 35%;
+	margin: 0px auto;
+	display: flex;
+  }
+  section#imageslider section.wrapper div.container div.item div.logo img {
+	display: block;
+	width: 100%;
+  }
+  section#imageslider section.wrapper div.container div.item p {
+	margin: 10px 0px 10px 0px;
+	width: 100%;
+	font-size: 14px;
+	color: #9da5a8;
+	line-height: 30px;
+	}
+	section#imageslider section.wrapper div.container div.item p:nth-child(3){
+		
+	}
+  section#imageslider section.wrapper div.container div.item p span {
+	  /* color: #474c50; */
+	  font-weight: 600;
+	}
+  section#imageslider section.wrapper div.container div.item div.image {
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 10px;
+  }
+  section#imageslider section.wrapper div.container div.item div.image img {
+	display: block;
+	width: 100%;
+  }
+  section#imageslider section.wrapper div.container div.item h1 {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: small;
+	letter-spacing: 2px;
+	/* margin-top: 10px; */
+	margin: 10px 0px 5px 0px;
+  }
+  section#imageslider section.wrapper div.container div.item h6 {
+	text-transform: capitalize;
+	color: #9da5a8;
+  }
+  section#imageslider section.wrapper div.container div.sliderright {
+	width: 3%;
+	margin-left: 10px;
+	}
+  section#imageslider section.wrapper div.container div.sliderright img {
+	display: block;
+	width: 100%;
+  }
+  section#imageslider section.wrapper ul {
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+  }
+  section#imageslider section.wrapper ul li {
+	margin-right: 10px;
+  }
+  section#imageslider section.wrapper ul li img {
+  }
+  
